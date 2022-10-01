@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inheritance\HeirarchicalInheritance\Bike.cs" />
+    <Compile Include="Inheritance\HeirarchicalInheritance\Car.cs" />
+    <Compile Include="Inheritance\HeirarchicalInheritance\Vehical.cs" />
     <Compile Include="Inheritance\Single Inheritance\Animal.cs" />
     <Compile Include="Inheritance\Single Inheritance\Dog.cs" />
     <Compile Include="Program.cs" />
