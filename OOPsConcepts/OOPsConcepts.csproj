@@ -49,6 +49,9 @@
     <Compile Include="Inheritance\MultilevelInheritance\Company.cs" />
     <Compile Include="Inheritance\MultilevelInheritance\Electronics.cs" />
     <Compile Include="Inheritance\MultilevelInheritance\Mobile.cs" />
+    <Compile Include="Inheritance\MultipleInheritance\Car.cs" />
+    <Compile Include="Inheritance\MultipleInheritance\Engine.cs" />
+    <Compile Include="Inheritance\MultipleInheritance\Info.cs" />
     <Compile Include="Inheritance\Single Inheritance\Animal.cs" />
     <Compile Include="Inheritance\Single Inheritance\Dog.cs" />
     <Compile Include="Program.cs" />
