@@ -1,4 +1,5 @@
 ﻿using OOPsConcepts.Inheritance.HeirarchicalInheritance;
+using OOPsConcepts.Inheritance.MultilevelInheritance;
 using OOPsConcepts.Inheritance.Single_Inheritance;
 using System;
 using System.Collections.Generic;
@@ -12,11 +13,10 @@ namespace OOPsConcepts
     {
         static void Main(string[] args)
         {
-            //Heirarchical Inheritance
-            Car car = new Car();//creating object of class
-            car.CarInfo();//calling method using object car
-            Bike bike = new Bike();
-            bike.BikeInfo();
+            //Multilevel Inheritance
+            Mobile mobile = new Mobile();//creating object of class
+            Console.WriteLine(mobile.Mob("Samsung", "Mobiles", "Samsung Galaxy s22")); //calling method using object car
+            
             Console.ReadLine();
         }
     }
